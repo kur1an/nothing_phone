@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nothing Phone Inspired Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Nothing</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <select id="languageSwitcher">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+            </select>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <video autoplay muted loop id="bg-video">
+                <source src="path/to/your/video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1 data-translate="hero_title">Welcome to the Future</h1>
+                <p data-translate="hero_description">Experience the simplicity and elegance of the Nothing Phone interface.</p>
+                <button data-translate="hero_button">Learn More</button>
+            </div>
+        </section>
+        <section id="about">
+            <h2 data-translate="about_title">About Us</h2>
+            <p data-translate="about_description">We are dedicated to creating minimalist, user-friendly designs that push the boundaries of technology.</p>
+        </section>
+        <section id="services">
+            <h2 data-translate="services_title">Our Services</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3 data-translate="service_1_title">Minimalist Design</h3>
+                    <p data-translate="service_1_description">Clean, simple, and intuitive design.</p>
+                </div>
+                <div class="feature">
+                    <h3 data-translate="service_2_title">Futuristic Interface</h3>
+                    <p data-translate="service_2_description">A glimpse into the future of mobile interfaces.</p>
+                </div>
+                <div class="feature">
+                    <h3 data-translate="service_3_title">User-Friendly</h3>
+                    <p data-translate="service_3_description">Easy to navigate and use.</p>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2 data-translate="testimonials_title">What Our Users Say</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p data-translate="testimonial_1">"The Nothing Phone interface is incredibly intuitive and sleek."</p>
+                    <span>- Alex P.</span>
+                </div>
+                <div class="testimonial">
+                    <p data-translate="testimonial_2">"A truly revolutionary design. Minimalist yet powerful."</p>
+                    <span>- Jamie L.</span>
+                </div>
+                <div class="testimonial">
+                    <p data-translate="testimonial_3">"I've never used anything so simple and elegant."</p>
+                    <span>- Casey M.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nothing. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
